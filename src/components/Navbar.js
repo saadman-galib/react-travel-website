@@ -4,9 +4,9 @@ import { Button } from "./Button";
 import "./Navbar.scss";
 
 function Navbar() {
-  const [click, setClick] = useState(true);
+  const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
-  const handleclick = () => setClick(click);
+  const handleclick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
