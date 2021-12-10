@@ -27,7 +27,7 @@ export const Button = ({
         {children}
       </button>
 
-      <button>Get Started</button>
+      {/* <button>Get Started</button> */}
     </Link>
   );
 };

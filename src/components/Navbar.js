@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
-import "./Navbar.css";
+import "./Navbar.scss";
 
 function Navbar() {
-  const [click, setClick] = useState(false);
+  const [click, setClick] = useState(true);
   const [button, setButton] = useState(true);
-  const handleclick = () => setClick(!click);
+  const handleclick = () => setClick(click);
   const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
