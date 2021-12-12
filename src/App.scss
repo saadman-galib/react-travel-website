@@ -5,23 +5,27 @@
     font-family: "PT Sans", sans-serif;
 }
 
-// body {
-//   background-color: lightblue;
-// }
-
 .home,
 .services,
 .products,
 .sign-up {
     display: flex;
-    height: 90vh;
+    // min-height: 100%;
+    min-height: 92vh;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
+
+//     h1{
+//         z-index: 99999;
+//         color: #000;
+//     }
 }
 
 .services {
-    /* background-image: url('./public/images/img-2.jpg'); */
+    // background-image: url('./images/img-2.jpg');
+    background: url('https://github.com/saadman-galib/react-travel-website/blob/master/public/images/img-8.jpg?raw=true');
+    // background: url('./images/img-8.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,7 +34,7 @@
 }
 
 .products {
-    /* background-image: url('./public/images/img-1.jpg'); */
+    // background-image: url('./images/img-1.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -39,7 +43,7 @@
 }
 
 .sign-up {
-    /* background-image: url('./public/images/img-8.jpg'); */
+    // background-image: url("./images/img-8.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
