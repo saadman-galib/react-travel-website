@@ -76,7 +76,6 @@ function Footer() {
                         <Link
                             to="/"
                             target="_blank"
-                            aria-level="Facebook"
                             className="social-icon-link facebook"
                         >
                             <i className="fab fa-facebook-f"></i>
@@ -84,7 +83,6 @@ function Footer() {
                         <Link
                             to="/"
                             target="_blank"
-                            aria-level="Instagram"
                             className="social-icon-link instagram"
                         >
                             <i className="fab fa-instagram"></i>
@@ -92,7 +90,6 @@ function Footer() {
                         <Link
                             to="/"
                             target="_blank"
-                            aria-level="Youtube"
                             className="social-icon-link youtube"
                         >
                             <i className="fab fa-youtube"></i>
@@ -100,7 +97,6 @@ function Footer() {
                         <Link
                             to="/"
                             target="_blank"
-                            aria-level="Twitter"
                             className="social-icon-link twitter"
                         >
                             <i className="fab fa-twitter"></i>
@@ -108,7 +104,6 @@ function Footer() {
                         <Link
                             to="/"
                             target="_blank"
-                            aria-level="LinkedIn"
                             className="social-icon-link linkedin"
                         >
                             <i className="fab fa-linkedin"></i>
