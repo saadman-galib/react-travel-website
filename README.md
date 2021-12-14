@@ -24,13 +24,14 @@
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 ## Clone this repository
 ```bash
-# Clone this repository
 git clone https://github.com/saadman-galib/react-travel-website.git
-
-# Install dependencies
+```
+## Install dependencies
+```bash
 npm install
-
-# Run the app
+```
+## Run the app
+```bash
 npm start
 ```
 
