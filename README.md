@@ -25,13 +25,13 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 ## Clone this repository
 ```bash
 # Clone this repository
-$ git clone https://github.com/saadman-galib/react-travel-website.git
+git clone https://github.com/saadman-galib/react-travel-website.git
 
 # Install dependencies
-$ npm install
+npm install
 
 # Run the app
-$ npm start
+npm start
 ```
 
 
